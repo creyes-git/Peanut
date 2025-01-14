@@ -54,9 +54,9 @@ else:
             if validate_csv_df(df): # Validate CSV Columns
                 st.success(body = "Data Loaded Successfully!", icon = "🥳")
                 df_smart = SmartDataframe(df, 
-                              name = "My DataFrame", 
-                              description = "Brief description of what the dataframe contains",
-                              config = {"llm": llm, "enable_cache": False})
+                                          name = "My DataFrame", 
+                                          description = "Brief description of what the dataframe contains",
+                                          config = {"llm": llm, "enable_cache": False})
             else:
                 st.error(body = "Data validation failed, check your CSV file and try again!", icon = "😢")
                 df = pd.DataFrame()
