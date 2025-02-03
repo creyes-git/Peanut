@@ -2,7 +2,6 @@ from modules.utils import android_to_hex, validate_csv_df
 import streamlit as st
 import pandas as pd
 from pandasai import SmartDataframe, clear_cache
-from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 import os
 

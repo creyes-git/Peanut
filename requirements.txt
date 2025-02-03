@@ -1,7 +1,5 @@
+pandasai
 streamlit
 plotly
 kaleido
-pandasai
-pandasai[langchain]
-langchain_groq
 pygwalker
