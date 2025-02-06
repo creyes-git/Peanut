@@ -1,6 +1,5 @@
-pandasai
 streamlit
 plotly
 kaleido
 pygwalker
-dotenv
+python-dotenv
