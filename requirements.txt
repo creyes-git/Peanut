@@ -3,4 +3,4 @@ plotly
 kaleido
 pygwalker
 python-dotenv
-pandas
+pandasai
